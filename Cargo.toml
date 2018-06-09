@@ -1,0 +1,6 @@
+[package]
+name = "rust-cargo-hello-world-demo"
+version = "0.1.0"
+authors = ["freewind <nowindlee@gmail.com>"]
+
+[dependencies]
