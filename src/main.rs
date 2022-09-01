@@ -1,3 +1,14 @@
+struct Hello {
+    name: String,
+}
+
+impl Hello {
+    pub fn hello(&self) {
+        println!("Hello, {}!", self.name);
+    }
+}
+
 fn main() {
-    println!("Hello, world!");
+    let hello = Hello { name: "Rust".to_string() };
+    hello.hello();
 }

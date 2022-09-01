@@ -1,7 +1,8 @@
-rust-cargo-hello-world-demo
+rust-cargo-string-in-struct-demo
 ===========================
 
-文件由`cargo new`生成。
+struct中使用`String`
+
 
 ```
 cargo run
